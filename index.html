@@ -10,23 +10,23 @@
     
     <!-- Geist Font Configuration -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap');
-      
-      /* Simulating Geist with Inter/JetBrains if Geist CDN is unstable, 
-         but ensuring the look is clean and grotesque */
+      /* JetBrains Mono only */
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
+
       :root {
-        --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --font-sans: 'JetBrains Mono', monospace;
+        --font-mono: 'JetBrains Mono', monospace;
       }
 
       body {
         background-color: #000000;
         color: #e5e5e5;
-        font-family: var(--font-sans);
+        font-family: 'JetBrains Mono', monospace;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
-    </style>
+  </style>
+
 
     <script>
       tailwind.config = {
