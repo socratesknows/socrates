@@ -14,7 +14,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'the-examined-life',
     title: 'the concept of systems',
     date: '2025-11-29',
-    description: 'the machines that work for you',
+    description: 'building iterated machines that guide you in achieving things',
     content: `
 
 
