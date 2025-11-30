@@ -20,10 +20,10 @@ export const Post: React.FC<PostProps> = ({ post, onBack }) => {
         <time className="font-mono text-xs text-neutral-500 block mb-3">
           {post.date}
         </time>
-        <h1 className="text-3xl font-medium text-white tracking-tight mb-4">
+        <h1 className="text-xl font-medium text-white tracking-tight mb-4">
           {post.title}
         </h1>
-        <p className="text-lg text-neutral-400 font-light">
+        <p className="text-l text-neutral-400 font-light">
           {post.description}
         </p>
       </header>
