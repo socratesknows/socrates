@@ -11,8 +11,8 @@ export const ABOUT_TEXT = `this is my public notebook — a way to refine how i 
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: '1',
-    slug: 'the-examined-life',
-    title: 'the concept of systems ',
+    slug: 'the-conept-of-systems',
+    title: 'the concept of systems',
     date: '2025-11-29',
     description: 'building iterated machines that guide you in achieving things',
     content: ` to acheive your goals, it's important you build systems.
@@ -32,6 +32,16 @@ then split all the processes into smaller, less complex tasks.
 don't overcomplicate anything, create simple systems to achieve great goals. use your ambition as fuel to begin working. 
 
 `
+
+  },
+
+  {
+    id: '2',
+    slug: 'overthinking',
+    title: 'stop overthinking, start doing',
+    date: '2025-11-29',
+    description: '',
+    content: ``
 
   },
 ];
