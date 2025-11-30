@@ -15,6 +15,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'the concept of overthinking',
     date: '2025-11-29',
     description: 'the hard to control recursive evaluation of false justification',
-    content: ``
+    content: `the whole concept of overthinking is based on the foundation of false justification. you're in this constant iterated loop of trying to escape the task at hand by making
+    unreasonable statements in your mind.`
   },
 ];
