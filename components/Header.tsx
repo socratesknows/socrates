@@ -20,7 +20,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
       >
         socrates
       </div>
-      <nav className="flex gap-6 font-mono text-xs uppercase tracking-wider">
+      <nav className="flex gap-6 font-mono text-xs lowercase tracking-wider">
         <span 
           onClick={() => onNavigate(PageView.ARCHIVE)} 
           className={linkClass(PageView.ARCHIVE)}
