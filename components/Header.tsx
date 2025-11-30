@@ -18,26 +18,26 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
         onClick={() => onNavigate(PageView.ARCHIVE)}
         className="text-white font-bold tracking-tight cursor-pointer select-none text-lg"
       >
-        Socrates
+        socrates
       </div>
       <nav className="flex gap-6 font-mono text-xs uppercase tracking-wider">
         <span 
           onClick={() => onNavigate(PageView.ARCHIVE)} 
           className={linkClass(PageView.ARCHIVE)}
         >
-          Archive
+          archive
         </span>
         <span 
           onClick={() => onNavigate(PageView.ABOUT)} 
           className={linkClass(PageView.ABOUT)}
         >
-          About
+          about
         </span>
         <span 
           onClick={() => onNavigate(PageView.CONTACT)} 
           className={linkClass(PageView.CONTACT)}
         >
-          Contact
+          contact
         </span>
       </nav>
     </header>
