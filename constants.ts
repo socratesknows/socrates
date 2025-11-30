@@ -4,9 +4,9 @@ export const BLOG_TITLE = "Socrates";
 export const TWITTER_HANDLE = "@socrateslater";
 export const TWITTER_URL = "https://twitter.com/socrateslater";
 
-export const ABOUT_TEXT = `This is my public notebook — a way to refine how I see the world and test whether my frameworks actually hold up.
+export const ABOUT_TEXT = `this is my public notebook — a way to refine how i see the world and test whether my frameworks actually hold up.
 
-If what I write sharpens your thinking, that's great. If not, it's already done its job for me.`;
+if what i write sharpens your thinking, that's great. if not, it's already done its job for me.`;
 
 export const BLOG_POSTS: BlogPost[] = [
   {
