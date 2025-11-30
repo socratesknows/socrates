@@ -7,7 +7,7 @@ export const Contact: React.FC = () => {
        <h1 className="text-white font-medium text-lg mb-8">Contact</h1>
        <div className="flex flex-col gap-4 items-start">
          <p className="text-neutral-400">
-           You can find me on Twitter.
+           you can find me on twitter.
          </p>
          <a 
           href={TWITTER_URL} 
