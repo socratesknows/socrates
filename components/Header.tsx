@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
           onClick={() => onNavigate(PageView.ARCHIVE)} 
           className={linkClass(PageView.ARCHIVE)}
         >
-          archive
+          archives
         </span>
         <span 
           onClick={() => onNavigate(PageView.ABOUT)} 
