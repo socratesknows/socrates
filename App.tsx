@@ -56,8 +56,8 @@ const App: React.FC = () => {
         </main>
         
         <footer className="mt-32 border-t border-neutral-900 pt-8 flex justify-between items-center text-xs text-neutral-600 font-mono">
-           <span>© {new Date().getFullYear()} Socrates</span>
-           <span>EST. 2024</span>
+           <span>© {new Date().getFullYear()} socrates</span>
+           <span>est. 2025</span>
         </footer>
       </div>
       <SocratesChat />
