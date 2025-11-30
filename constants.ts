@@ -12,9 +12,9 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: '1',
     slug: 'the-examined-life',
-    title: 'The Concept of Overthinking',
+    title: 'the concept of overthinking',
     date: '2025-11-29',
-    description: 'The Uncontrolled Recursive Evaluation of False Justification.',
+    description: 'the hard to control recursive evaluation of false justification',
     content: ``
   },
 ];
