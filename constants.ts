@@ -12,11 +12,10 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: '1',
     slug: 'the-examined-life',
-    title: 'the concept of systems',
+    title: 'the concept of systems ',
     date: '2025-11-29',
     description: 'building iterated machines that guide you in achieving things',
-    content: `
-
+    content: ` 
 
 `
   },
